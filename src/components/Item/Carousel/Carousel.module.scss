@@ -1,0 +1,23 @@
+@import '../../../scss/vars';
+
+.slider {
+    grid-column: span 2;
+}
+
+.slider__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 415px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.slider__img {
+    min-height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+

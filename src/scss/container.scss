@@ -1,0 +1,65 @@
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 100%;
+  padding-right: $const_padding;
+  padding-left: $const_padding;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: $break_mb) {
+  .container {
+    max-width: $width_mb;
+  }
+}
+
+@media (min-width: $break_sm) {
+  .container {
+    max-width: $width_sm;
+  }
+}
+
+@media (min-width: $break_md) {
+  .container {
+    max-width: $width_md;
+  }
+}
+
+@media (min-width: $break_lg) {
+  .container {
+    max-width: $width_lg;
+  }
+}
+
+@media (min-width: $break_xl) {
+  .container {
+    max-width: $width_xl;
+  }
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: $const_padding;
+  padding-left: $const_padding;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -$const_padding;
+  margin-left: -$const_padding;
+}

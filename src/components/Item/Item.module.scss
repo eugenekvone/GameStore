@@ -1,0 +1,162 @@
+@import '../../scss/vars';
+
+.item {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.similar {
+  grid-column: span 2;
+  margin-bottom: 35px;
+}
+
+.h1 {
+  margin-right: auto;
+}
+
+.h1_wrap {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 270px 1fr;
+  grid-column-gap: 30px;
+}
+
+.avatar {
+  height: 360px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.item div.btn_1 {
+  width: 120px;
+  border-radius: 15px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+div.btn_1.discount {
+  width: 270px;
+}
+
+.item div.btn_1:hover {
+  width: 150px;
+}
+
+.btn_1_text_1,
+.btn_1_text_2,
+.btn_1_text_3 {
+  font-weight: 600;
+  font-size: 18px;
+  font-family: ProximaNova-Regular;
+  text-align: center;
+}
+
+.btn_1_inner {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_1_inner:first-of-type {
+  background-color: $yellow1;
+
+  p {
+    margin-left: 12px;
+  }
+}
+
+.btn_1_inner:last-of-type {
+  background-color: $red1;
+}
+
+.btn_1_text_2 {
+  color: white;
+}
+
+.block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 25px;
+}
+
+.info {
+  padding: 40px 45px;
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  grid-row-gap: 25px;
+  background-color: white;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+
+.reviews {
+  grid-column: span 2;
+}
+
+.reviews__h2_wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.reviews__h2_numb {
+  margin-left: 10px;
+}
+
+.reviews__inner {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews__btn {
+  margin-right: auto;
+  margin-bottom: 55px;
+  display: none;
+}
+
+.info__text_wrap {
+  display: flex;
+
+  span {
+    margin-right: 3px;
+  }
+
+  p:last-of-type span {
+    display: none;
+  }
+}
+
+.views {
+  display: flex;
+  align-items: center;
+}
+
+.views_text {
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: ProximaNova-Regular;
+}
+
+.views_icon {
+  margin-right: 15px;
+}
+
+.rating_wrap {
+  position: absolute;
+  bottom: 30px;
+}

@@ -1,0 +1,128 @@
+@import '../../../scss/vars';
+
+.img {
+  height: 100%;
+  position: absolute;
+  min-width: 100%;
+  top: 0;
+  transition: filter 0.3s;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.product {
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 355px;
+  color: black;
+}
+
+.text {
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  z-index: 1;
+  font-size: 18px;
+  font-family: Simplo-Medium;
+  color: white;
+}
+
+.text,
+.logo,
+.views,
+.rating_wrap {
+  transition: 0.5s;
+}
+
+.product:hover {
+
+  .text,
+  .logo,
+  .btn__basket,
+  .views_wrap,
+  .rating_wrap {
+    opacity: 1;
+  }
+
+  .btn__basket {
+    transition-delay: 0.5s;
+    transition: 0.5s;
+  }
+
+  .img {
+    filter: blur(6px);
+    overflow: hidden;
+  }
+
+  .btn__price,
+  .btn__action {
+    opacity: 0;
+  }
+
+  .btn {
+    width: 140px;
+  }
+}
+
+.btn {
+  position: absolute;
+  margin: 0 auto;
+  bottom: 32px;
+}
+
+.logo,
+.text,
+.views_wrap,
+.rating_wrap {
+  opacity: 0;
+}
+
+.logo_icon_wrap {
+  padding: 10px;
+  border-radius: 100%;
+  background-color: $blue1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.logo_icon {
+  max-width: 60px;
+  max-height: 30px;
+}
+
+.logo {
+  position: absolute;
+  top: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.logo_text {
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+  font-family: ProximaNova-Regular;
+}
+
+.logo_icon_wrap,
+.logo_text,
+.text {
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.rating_wrap {
+  z-index: 1;
+  position: absolute;
+  top: 104px;
+}
+
+.views_wrap {
+  position: absolute;
+  bottom: 109px;
+}

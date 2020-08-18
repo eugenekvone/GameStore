@@ -1,0 +1,21 @@
+.text {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: ProximaNova-Regular;
+}
+
+.icon {
+    margin-right: 15px;
+}
+
+.text,
+.icon {
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+.views {
+    display: flex;
+    align-items: center;
+}
+

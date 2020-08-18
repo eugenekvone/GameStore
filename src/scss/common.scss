@@ -1,0 +1,535 @@
+p, h1, h2, label {
+	font-family: Roboto;
+	text-decoration: none;
+	margin: 0;
+}
+
+body a:hover,
+body a:active,
+body a {
+	text-decoration: none;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+@mixin cf {
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+@mixin clearfix() {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+
+.cf:after {
+	@include cf;
+}
+
+.cf::after {
+	@include cf;
+}
+
+.z-index-1 {
+	z-index: 1;
+}
+
+.z-index-2 {
+	z-index: 2;
+}
+
+.clear-left {
+	clear: left;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.relative {
+	position: relative;
+}
+
+.relative-wrap {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.img-cover {
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+input {
+	outline:none;
+}
+
+form {
+	margin-bottom: 0;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+
+// ABS
+
+.abs-all-center {
+	margin: auto;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	position: absolute;
+}
+
+.abs-ver-center {
+	margin-top: auto;
+  	margin-bottom: auto;
+  	top: 0;
+  	bottom: 0;
+  	position: absolute;
+}
+
+.abs-hor-center {
+	margin-left: auto;
+  	margin-right: auto;
+  	left: 0;
+  	right: 0;
+  	position: absolute;
+}
+
+// FLEX
+
+.flex {
+	display: flex;
+}
+
+.flex-all-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-hor-center {
+	display: flex;
+	justify-content: center;
+}
+
+.flex-ver-center {
+	display: flex;
+	align-items: center;
+}
+
+.flex-right {
+	margin-left: auto;
+}
+
+.flex-left {
+	margin-right: auto;
+}
+
+.flex-wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+// FLOAT
+
+.float-right {
+	float: right!important;
+}
+
+.float-left {
+	float: left!important;
+}
+
+// BTN
+
+.btn_1 {
+	cursor: pointer;
+	height: 40px;
+	border-radius: 7px;
+	align-items: center;
+	cursor: pointer;
+	width: 87.5px;
+	overflow: hidden;
+	transition: all 0.2s;
+	display: grid;
+	padding: 0 15px;
+	background-color: $yellow1;
+	position: relative;
+	user-select: none;
+}
+
+.btn_1.discount {
+
+	width: 175px;
+	grid-template-columns: 1fr 1fr;
+	padding: 0;
+
+	.btn_1__action {
+		display: flex;
+	}
+
+	.btn_1__price_starting_text {
+		display: block;
+	}
+}
+
+.btn_1__inner {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.3s;
+}
+
+.btn_1__inner.btn_1__action,
+.btn_1__inner .btn_1__price_starting_text {
+	display: none;
+}
+
+.btn_1__price {
+	background-color: $yellow1;
+	flex-direction: column;
+}
+
+.btn_1__price_text,
+.btn_1__action_text,
+.btn_1__basket_text,
+.btn_1__price_starting_text {
+	font-family: 'ProximaNova-Regular';
+	font-weight: 600;
+}
+
+.btn_1__price_text,
+.btn_1__basket_text,
+.btn_1__price_starting_text {
+	color: black;
+}
+
+.btn_1__price_starting_text {
+	font-size: 12px;
+	text-decoration: line-through;
+}
+
+.btn_1__action_text {
+	font-size: 15px;
+	color: white;
+}
+
+.btn_1__action {
+	background-color: $red1;
+}
+
+.btn_1__basket {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: 0.2s;
+	transition-delay: 0s;
+	background: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn_1__icon {
+	width: 18px;
+	margin-left: 9px;
+}
+
+.btn_1:hover {
+	background-color: $yellow2;
+	width: 140px;
+
+	.btn_1__basket {
+		opacity: 1;
+		transition-delay: 0.5s;
+		transition: 0.5s;
+	}
+
+	.btn_1__action,
+	.btn_1__price {
+		opacity: 0;
+	}
+}
+
+.btn_1:active {
+	background-color: $yellow1;
+}
+
+.btn-2 {
+	border-radius: 15px;
+	height: 60px;
+	padding: 0 20px;
+	background-color: $violet;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+// CHECKBOX
+
+.checkbox-none {
+	display: none;
+}
+
+.checkbox {
+	width: 20px;
+	height: 20px;
+	background: white;
+	margin-right: 15px;
+	border-radius: 4px;
+	border: 1px solid $grey1;
+}
+
+.checkbox-label {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	user-select: none;
+}
+
+.checkbox-none[value=true] + .checkbox-label .checkbox {
+	background: url(./img/check.svg);
+	background-size: 15px 15px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.checkbox_sorting-text-1 {
+	display: block;
+}
+
+.checkbox_sorting-text-2 {
+	display: none;
+}
+
+.checkbox_sorting {
+	transform: rotate(0);
+}
+
+.checkbox-none:checked + .checkbox-label {
+
+	.checkbox_sorting-text-1 {
+		display: none;
+	}
+
+	.checkbox_sorting-text-2 {
+		display: block;
+	}
+
+	.checkbox_sorting {
+		transform: rotate(180deg);
+	}
+}
+
+.checkbox-wrap {
+	margin-bottom: 15px;
+}
+
+.checkbox-wrap:last-of-type {
+	margin-bottom: 0;
+}
+
+// RADIO
+
+.radio-none {
+	display: none;
+}
+
+.radio {
+	width: 20px;
+	height: 20px;
+	background: white;
+	margin-right: 15px;
+	border-radius: 100%;
+	border: 1px solid $grey1;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.radio-label {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	user-select: none;
+}
+
+.radio-none:checked + .radio-label .radio:before {
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	background-color: $violet;
+}
+
+.radio-wrap {
+	margin-bottom: 15px;
+}
+
+.radio-wrap:last-of-type {
+	margin-bottom: 0;
+}
+
+.radio_new {
+	position: relative;
+}
+
+.radio_new::after {
+	content: '';
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background-color: blue;
+}
+
+// TEXT
+
+.h1-1 {
+	color: black;
+	font-family: 'ProximaNova-Bold';
+	font-size: 38px;
+}
+
+.h1-2 {
+	font-size: 31px;
+	color: black;
+	font-family: ProximaNova-Bold;
+}
+
+.h2-1 {
+	font-size: 24px;
+	color: black;
+	font-family: ProximaNova-Bold;
+}
+
+.h2-2 {
+	color: $yellow2;
+	font-family: 'ProximaNova-Bold';
+	font-size: 60px;
+}
+
+.text-1 {
+	font-family: 'ProximaNova-Bold';
+	color: $grey2;
+	font-size: 13px;
+}
+
+.text-2 {
+	font-size: 13px;
+	font-family: 'ProximaNova-Regular';
+	color: $blue2;
+}
+
+.text-3 {
+	color: white;
+	font-family: 'ProximaNova-Regular';
+	font-size: 16px;
+}
+
+.text-4 {
+	color: white;
+	font-family: 'ProximaNova-Regular';
+	font-size: 14px;
+}
+
+.text-5 {
+	color: white;
+	font-family: 'ProximaNova-Regular';
+	font-size: 11px;
+}
+
+.text-7 {
+	color: black;
+	font-family: 'ProximaNova-Bold';
+	font-size: 13px;
+}
+
+.text-8 {
+	color: $grey2;
+	font-family: 'ProximaNova-Bold';
+	font-size: 24px;
+}
+
+.text-9 {
+	font-size: 13px;
+	font-family: 'ProximaNova-Regular';
+	color: $grey2;
+}
+
+.text-10 {
+	font-size: 11px;
+	font-family: 'ProximaNova-Regular';
+	color: $grey4;
+}
+
+.text-11 {
+	color: black;
+	font-family: 'ProximaNova-Bold';
+	font-size: 17px;
+}
+
+.text-12 {
+	color: black;
+	font-family: 'ProximaNova-Bold';
+	font-size: 14px;
+}
+
+.text-13 {
+	color: black;
+	font-family: 'ProximaNova-Regular';
+	font-size: 14px;
+}
+
+.text-14 {
+	font-family: 'ProximaNova-Bold';
+	color: $grey2;
+	font-size: 14px;
+}
+
+.text-15 {
+	font-family: 'ProximaNova-Bold';
+	font-size: 60px;
+	color: $yellow2;
+}
+
+.text-16 {
+	font-family: 'ProximaNova-Bold';
+	font-size: 34px;
+	color: $yellow2;
+}
+

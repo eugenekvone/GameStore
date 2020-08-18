@@ -1,0 +1,18 @@
+@import '../../../scss/vars';
+
+.pageDots {
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: $grey3;
+}
+
+.pageDots.selectedPage {
+    background-color: $violet;
+}
+
+.dots {
+    display: flex;
+}

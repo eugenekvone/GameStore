@@ -1,0 +1,60 @@
+@import '../../scss/vars';
+
+.footer {
+    width: 100%;
+    background-color: $white1;
+    padding-bottom: 60px;
+    border-top: 1px solid $grey1;
+}
+
+.footer__logo_wrap {
+    margin-right: 25px;
+}
+
+.inner {
+    height: 100%;
+    padding-top: 50px;
+}
+
+.text_1 {
+    margin-right: 45px;
+}
+
+.text_2 {
+    margin-right: 23px;
+
+    span {
+        color: black;
+        text-decoration: underline;
+    }
+}
+
+.social {
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background: $grey3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block_1 {
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.block_2 {
+    display: flex;
+    align-items: center;
+}
+
+.icon_youtube {
+    margin-right: 12px;
+}
+
+.social_icon {
+    max-width: 30px;
+}

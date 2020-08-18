@@ -1,0 +1,42 @@
+@import '../../../scss/vars';
+
+.review {
+    margin-bottom: 25px;
+}
+
+.inner {
+    border-radius: 15px;
+    padding: 25px 30px;
+    background-color: $white2;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 18px;
+    margin-left: 25px;
+    background-color: $violet;
+}
+
+.avatar__img {
+    width: 100%;
+
+}
+
+.date {
+    margin-left: auto;
+    margin-right: 25px;
+    margin-top: 2px;
+}
+

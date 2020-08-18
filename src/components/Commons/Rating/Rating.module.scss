@@ -1,0 +1,22 @@
+.star {
+    position: relative;
+    margin: 0 4px;
+}
+
+img.icon,
+img.icon_active {
+    width: 35px;
+}
+
+.icon_wrap_active {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}

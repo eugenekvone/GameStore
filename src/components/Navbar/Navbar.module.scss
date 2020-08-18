@@ -1,0 +1,125 @@
+@import "../../scss/vars";
+
+.navbar {
+    width: 100%;
+    height: 75px;
+    background-color: $violet;
+}
+
+.inner {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo_wrap {
+    margin-right: auto;
+}
+
+.link {
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+.link_text {
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.link:hover .link_text {
+    color: $blue3;
+}
+
+.link_discount_icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    background-color: $yellow1;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+}
+
+.link_discounts:hover .link_discount_icon {
+    background-color: $yellow2;
+}
+
+.link_discount_icon_text {
+    margin-right: 1px;
+}
+
+.link.link_catalog {
+    height: 45px;
+    background-color: $yellow1;
+    padding: 0 20px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+    margin-right: 0;
+}
+
+.link_catalog:hover {
+    background-color: $yellow2;
+}
+
+.basket {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    display: none;
+}
+
+.basket_text {
+    transition: color 0.2s;
+}
+
+.basket:hover {
+    .basket_icon {
+        fill: $blue3;
+    }
+
+    .basket_text {
+        color: $blue3;
+    }
+
+    .basket_numb_wrap {
+        background-color: $yellow2;
+    }
+}
+
+.basket_icon {
+    margin-right: 17px;
+    width: 18px;
+}
+
+.basket_numb_wrap {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: $yellow1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 10px;
+    top: -5px;
+    transition: background-color 0.2s;
+}
+
+.basket_numb {
+    margin-right: 1px;
+    margin-top: 1px;
+}
+
+.link_catalog_icon {
+    margin-left: 17px;
+    width: 15px;
+}

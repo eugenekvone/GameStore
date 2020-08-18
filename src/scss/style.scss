@@ -1,0 +1,63 @@
+@import 'vars';
+@import 'normalize';
+@import 'container';
+@import 'common';
+@import 'fonts';
+
+.app-wrapper {
+	background-color: $white2;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	min-height: 100%;
+}
+
+body, html, #root {
+	height: 100%;
+}
+
+html {
+	min-height: 100%;
+}
+
+.h2-wrap {
+	margin-bottom: 50px;
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.item .avatar-wrap {
+	.btn_1.discount {
+		width: 270px;
+	}
+}
+
+.main__slider .owl-carousel .owl-item {
+	.star,
+	.star_active {
+		width: 60px;
+	}
+}
+
+.catalog__products .products__inner {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.catalog__products {
+	margin-top: 12px;
+}
+
+.filter__input {
+	border: none;
+	padding-left: 22px;
+	height: 100%;
+	width: 100%;
+}
+
+.filter__input::placeholder {
+	color: $grey4;
+}
+
+.filter__input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
