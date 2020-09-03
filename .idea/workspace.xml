@@ -2,66 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d49eaf12-2e91-4b79-843b-07719df18346" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/tests/catalog-reducer.actions.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/tests/item-reducer.actions.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/tests/products-reducer.actions.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/tests/slide-reducer.actions.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/owl.carousel.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/owl.carousel.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/owl.carousel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/catalog-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/catalog-api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/items-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/items-api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/products-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/products-api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/slide-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/slide-api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/users-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/users-api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Catalog/Catalog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Catalog/Catalog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Catalog/CatalogContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Catalog/CatalogContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Catalog/CatalogForm/CatalogForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Catalog/CatalogForm/CatalogForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Item/Carousel/Carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/Carousel/Carousel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Item/Item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/Item.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Item/ItemContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/ItemContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Item/Review/Review.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/Review/Review.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Slide/DiscountSlideContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Slide/DiscountSlideContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Slide/NewSlideContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Slide/NewSlideContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Slide/PopularSlideContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Slide/PopularSlideContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Slide/RecommendedSlideContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Slide/RecommendedSlideContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Slide/Slide.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Slide/Slide.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Products/CatalogProductsContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/CatalogProductsContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Products/DiscountProductsContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/DiscountProductsContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Products/PopularProductsContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/PopularProductsContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Products/Product/Product.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/Product/Product.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Products/Products.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/Products.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Products/ProductsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/ProductsContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Products/RecommendedProductsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/RecommendedProductsContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Products/SimilarProductsContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/SimilarProductsContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Checkbox/Checkbox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Commons/Checkbox/Checkbox.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Dots/Dots.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Commons/Dots/Dots.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Dots/Dots.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Commons/Dots/Dots.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/FormsColnrols/FormsControls.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Commons/FormsColnrols/FormsControls.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/FormsColnrols/FormsControls.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Commons/FormsColnrols/FormsControls.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Commons/Paginator/Paginator.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Commons/Paginator/Paginator.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Preloader/Preloader.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Commons/Preloader/Preloader.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Preloader/Preloader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Commons/Preloader/Preloader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Radio/Radio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Commons/Radio/Radio.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Rating/Rating.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Commons/Rating/Rating.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Rating/Rating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Commons/Rating/Rating.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Views/Views.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Commons/Views/Views.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Views/Views.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Commons/Views/Views.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/app-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/app-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/catalog-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/catalog-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/item-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/item-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/products-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/products-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/products-selectors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/selectors/products-selectors.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/slide-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/slide-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/slide-selectors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/selectors/slide-selectors.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +69,7 @@
       <recent name="C:\EugeneKV\My\Work\Projects\React\GitHub\GameStore\src\components\Products\Product" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.test">
+  <component name="RunManager" selected="npm.start">
     <configuration name="catalog-reducer.actions.test.ts" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -420,6 +361,15 @@
       <workItem from="1597648064656" duration="4396000" />
       <workItem from="1597689978089" duration="6127000" />
       <workItem from="1597696118165" duration="381000" />
+      <workItem from="1598339432136" duration="487000" />
+      <workItem from="1598377453980" duration="7951000" />
+      <workItem from="1598423464645" duration="518000" />
+      <workItem from="1598429346829" duration="1361000" />
+      <workItem from="1598443304469" duration="1218000" />
+      <workItem from="1598721995247" duration="872000" />
+      <workItem from="1598898872364" duration="1234000" />
+      <workItem from="1598942274925" duration="168000" />
+      <workItem from="1598942777188" duration="1325000" />
     </task>
     <servers />
   </component>
@@ -436,22 +386,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596800202000" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1597696498803">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1598339919287">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597696498803" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1597696498803">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598339919287" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1598339919287">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597696498803" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1597696498802">
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598339919287" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1598339919287">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597696498802" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1597696498803">
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598339919287" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1598339919287">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597696498803" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598339919287" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1597651888591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -460,10 +410,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="337" y="15" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1597612594521" />
-    <state x="478" y="145" width="579" height="564" key="find.popup" timestamp="1597691173063">
+    <state x="478" y="145" width="579" height="624" key="find.popup" timestamp="1598943139567">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="478" y="145" width="579" height="564" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1597691173063" />
+    <state x="478" y="145" width="579" height="624" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1598943139567" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1597696494755">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
